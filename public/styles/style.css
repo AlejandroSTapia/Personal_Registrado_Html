@@ -10,3 +10,32 @@
 .person-item:hover {
   background-color: #e2e6ea;
 }
+
+@media (min-width: 576px) {
+  .btn-persona {
+    font-size: 1.1rem;
+    padding: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 80px ;
+  }
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+#data-container .col {
+  padding: 0.25rem 0.5rem;
+}
+
+.input-group-text {
+  border-right: 0;
+}
+
+.input-group .form-control {
+  border-left: 0;
+}
+
+

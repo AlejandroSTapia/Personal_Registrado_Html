@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["dom", "es2016"],
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["./public/script.ts"]
+}

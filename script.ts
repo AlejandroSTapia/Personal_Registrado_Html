@@ -11,7 +11,7 @@ interface Persona {
 let personas: Persona[] = [];
 
 window.addEventListener("DOMContentLoaded", async () => {
-  const response = await fetch("../public/data/data.csv");
+  const response = await fetch("./data/data.csv");
   const text = await response.text();
   parseCSV(text);
   renderList(personas);

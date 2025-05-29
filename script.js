@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 let personas = [];
 window.addEventListener("DOMContentLoaded", () => __awaiter(void 0, void 0, void 0, function* () {
-    const response = yield fetch("../public/data/data.csv");
+    const response = yield fetch("./data/data.csv");
     const text = yield response.text();
     parseCSV(text);
     renderList(personas);

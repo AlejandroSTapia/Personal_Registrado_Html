@@ -5,5 +5,5 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["./public/script.ts"]
+  "include": ["./script.ts"]
 }
